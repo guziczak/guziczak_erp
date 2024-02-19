@@ -17,7 +17,6 @@ import org.springframework.beans.BeanUtils;
 @NoArgsConstructor
 @Getter
 @Setter
-@Deprecated
 public class ArchivalEmployee extends AbstractEmployee {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
